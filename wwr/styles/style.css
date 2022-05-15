@@ -1,0 +1,83 @@
+div id {
+ max-width: 1600px;
+ margin:0 auto; 
+}
+
+section id {
+
+    text-align: center;
+}
+
+background {
+    height: 725px;
+}
+
+body {
+    background: bisque;
+}
+header {
+    background-color: aqua;
+}
+
+nav a {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.home-title {
+    background-color: black;
+    color: bisque
+}
+
+h4 {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.book, .join {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: white;
+    color:rgb(36, 44, 44)
+}
+.msg h2 {
+    background-color: antiquewhite;
+    color: aqua;
+}
+.msg p {
+    background-color: black;
+    color:steelblue
+}
+footer h3 {
+    background-color: aliceblue;
+    color:steelblue;
+    text-decoration: underline;
+}
+footer h3 {
+    background-color: black;
+    color: antiquewhite;
+}
+footer a {
+    background-color: black;
+    color: steelblue;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: rgb(248, 239, 239);
+    color:steelblue;
+    text-decoration: underline;
+}
+
+.icon {
+    width: 80px
+}
