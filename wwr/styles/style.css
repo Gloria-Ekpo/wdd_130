@@ -1,15 +1,11 @@
-div id {
+#content {
  max-width: 1600px;
  margin:0 auto; 
 }
 
-section id {
-
-    text-align: center;
-}
-
-background {
+#background {
     height: 725px;
+    background-color: black;
 }
 
 body {
@@ -40,7 +36,7 @@ h4 {
 }
 
 .book, .join {
-    background-color: black;
+    background-color:#49475B;
     color: antiquewhite;
     text-align: center;
     text-decoration: none;
@@ -50,6 +46,9 @@ h4 {
     background-color: white;
     color:rgb(36, 44, 44)
 }
+.msg {
+    background-color: aliceblue;
+}
 .msg h2 {
     background-color: antiquewhite;
     color: aqua;
@@ -58,26 +57,39 @@ h4 {
     background-color: black;
     color:steelblue
 }
+footer {
+    background-color: black;
+}
 footer h3 {
     background-color: aliceblue;
     color:steelblue;
-    text-decoration: underline;
 }
-footer h3 {
+footer h3 a:hover {
     background-color: black;
     color: antiquewhite;
+    text-decoration: underline;
 }
 footer a {
     background-color: black;
     color: steelblue;
     text-decoration: none;
 }
-footer a:hover {
-    background-color: rgb(248, 239, 239);
-    color:steelblue;
-    text-decoration: underline;
-}
 
 .icon {
     width: 80px
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
+    width : 100%;
+}
+#hero-msg h1, #hero-msg h4{
+   text-align: center; 
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
 }
