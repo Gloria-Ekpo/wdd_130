@@ -65,7 +65,7 @@ h4 {
     background-color:  #49475B;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/7;
+    grid-column: 6/9;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #0f0f0e;
 }
@@ -126,7 +126,7 @@ main section {
 footer .social img {
     padding-top: 15px;
 }
-.rivers-card, .camping-card, .rapid-card {
+.rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
 .card-img {
@@ -170,7 +170,7 @@ nav {
 .home-grid {
     /* This is the parent */
 display: grid;
-grid-template-columns: repeat(10);
+grid-template-columns: repeat(10, 1fr);
 /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
       
 }
@@ -240,6 +240,7 @@ footer {
     .rivers-card, .camping-card, .rapids-card { 
         margin: 200px 0;
         width: 60%;
+        margin: 100px auto;
     }
     #background {
         display: none;
