@@ -21,7 +21,7 @@ justify-items: center;
 } 
 .yellow1 {
   width: 200px; 
-  height: 100px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue1 {
@@ -56,7 +56,7 @@ grid-template-columns: repeat(5, 50px);
   background-color: gold; 
   grid-column: 3/5;
   grid-row: 3/5;
-  z-index: -1;
+  /* z-index: -1; */
 } 
 .blue2 {
   width: 100px; 
