@@ -291,6 +291,13 @@ form {
        between the labels and their text fields */
     margin-left: .5em;
   }
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
