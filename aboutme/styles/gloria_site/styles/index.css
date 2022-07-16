@@ -1,0 +1,102 @@
+/*  font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,600&family=Roboto:wght@300&family=Tapestry&display=swap');
+
+
+
+
+body{
+    background-color: #b7b7b7;
+}
+/*----------------Navigation-----*/
+header{
+    background-color: #0077B6;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    background-color: #0077B6;
+    display: flex;
+    justify-content:space-around ;
+}
+nav a{
+    color: #BB9457;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 2em;
+
+}
+#logo{
+    width: 80px;
+    margin: 20px;
+}
+/*-----------MAIN home---------------*/
+
+/*---------title home--------*/
+.h1-home{
+    color:#f09609 ;
+    font-size: 4em;
+    text-align: center;
+    
+}
+/*-----paragraph 1---------*/
+.para-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni;
+}
+p{
+    grid-column: 1/2;
+    font-size: 2em;
+    margin: auto 2em;
+}
+.para-1 img{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.para-2{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni;
+}
+.para-2 p{
+    grid-column: 2/3;
+}
+.para-2 img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.second-image img{
+    width: 100%;
+}
+/*------------hero-----------*/
+.home-image1 img{
+    width: 100%;
+}
+/* footer */
+footer {
+   background-color: #0077B6;
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+
+}
+footer a {
+    color: #BB9457;
+    margin: 20px;
+    text-decoration: none;
+}
+footer h3 {
+    color: #BB9457;
+    text-align: center;
+}
+.social{
+    grid-column: 2/3;
+}
+
