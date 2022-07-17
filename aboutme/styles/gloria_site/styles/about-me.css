@@ -93,4 +93,100 @@ footer {
      grid-column: 2/3;
  }
  
- 
+ /* third page */
+.mom{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni;
+} 
+.mom img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.mom p{
+    grid-column: 2/3;
+}
+.first-daughter {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni;
+}
+.first-daughter img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.first-daughter p{
+    grid-column: 2/3;
+}
+.second-daughter{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni;
+}
+.second-daughter img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.second-daughter p{
+    grid-column: 2/3;
+}
+.first-son{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni;  
+}
+.first-son img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.first-son p{
+    grid-column: 2/3;  
+}
+.second-son{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni; 
+}
+.second-son img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.second-son p{
+    grid-column: 2/3;
+}
+.third-daughter{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Libre Bodoni; 
+}
+.third-daughter img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.third-daughter p{
+    grid-column: 2/3;
+}
