@@ -6,17 +6,20 @@
 
 body{
     background-color: #b7b7b7;
+    font-family: 'Libre Bodoni' ;
 }
 /*----------------Navigation-----*/
 header{
     background-color: #0077B6;
     display: grid;
     grid-template-columns: 150px auto;
+    font-family: 'Roboto';
 }
 nav{
     background-color: #0077B6;
     display: flex;
     justify-content:space-around ;
+    font-family: Roboto;
 }
 nav a{
     color: #BB9457;
@@ -24,6 +27,9 @@ nav a{
     padding: 35px;
     font-size: 2em;
 
+}
+nav a:hover {
+    background-color: white;
 }
 #logo{
     width: 80px;
@@ -33,9 +39,10 @@ nav a{
 
 /*---------title home--------*/
 .h1-home{
-    color:#f09609 ;
+    color:#c7810f ;
     font-size: 4em;
     text-align: center;
+    font-family: Libre Bodoni;
     
 }
 /*-----paragraph 1---------*/
@@ -45,7 +52,7 @@ nav a{
     background-color: white;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    font-family: Roboto;
 }
 p{
     grid-column: 1/2;
@@ -63,7 +70,7 @@ p{
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    font-family: Roboto;
 }
 .para-2 p{
     grid-column: 2/3;
@@ -85,6 +92,7 @@ footer {
    background-color: #0077B6;
    display: grid; 
    grid-template-columns: 1fr 1fr;
+   font-family: Roboto;
 
 }
 footer a {
@@ -100,3 +108,7 @@ footer h3 {
     grid-column: 2/3;
 }
 
+footer h3 a:hover {
+   
+    text-decoration: underline;
+}

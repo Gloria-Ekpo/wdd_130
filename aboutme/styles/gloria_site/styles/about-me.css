@@ -8,19 +8,22 @@ body{
 header{
     background-color: #0077B6;
     display: grid;
-    grid-template-columns:none;
+    grid-template-columns: 150px auto;
 }
 nav{
     background-color: #0077B6;
     display: flex;
     justify-content:space-around ;
+    font-family: Roboto;
 }
 nav a{
     color: #BB9457;
     text-decoration: none;
     padding: 35px;
     font-size: 2em;
-
+}
+nav a:hover {
+    background-color: white;
 }
 #logo{
     width: 80px;
@@ -30,9 +33,10 @@ nav a{
 
 /*---------title home--------*/
 .about-me{
-    color:#f09609 ;
+    color:#c7810f ;
     font-size: 4em;
-    text-align: left;   
+    text-align: center; 
+    font-family: Libre Bodoni;  
 }
 
 
@@ -43,7 +47,8 @@ nav a{
     background-color: white;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    /* font-family: Libre Bodoni; */
+    font-family: Roboto;
 }
 
 p{
@@ -63,7 +68,8 @@ p{
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    /* font-family: Libre Bodoni; */
+    font-family: Roboto;
 }
 .second-paragraph p{
     grid-column: 2/3;
@@ -78,6 +84,7 @@ footer {
     background-color: #0077B6;
     display: grid; 
     grid-template-columns: 1fr 1fr;
+    font-family: Roboto;
  
  }
  footer a {
@@ -100,7 +107,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    font-family: Roboto;
 } 
 .mom img{
     width: 100%;
@@ -116,7 +123,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    font-family: Roboto;
 }
 .first-daughter img{
     width: 100%;
@@ -132,7 +139,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;
+    font-family: Roboto;
 }
 .second-daughter img{
     width: 100%;
@@ -148,7 +155,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni;  
+    font-family: Roboto;  
 }
 .first-son img{
     width: 100%;
@@ -164,7 +171,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni; 
+    font-family: Roboto; 
 }
 .second-son img{
     width: 100%;
@@ -180,7 +187,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Libre Bodoni; 
+    font-family: Roboto; 
 }
 .third-daughter img{
     width: 100%;
@@ -189,4 +196,15 @@ footer {
 }
 .third-daughter p{
     grid-column: 2/3;
+}
+
+.family{
+    color:#c7810f ;
+    font-size: 4em;
+    text-align: center;
+    font-family: Libre Bodoni;   
+}
+footer h3 a:hover {
+   
+    text-decoration: underline;
 }
